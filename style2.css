@@ -1,0 +1,14 @@
+/*Ceci est le stye de l'image "oh my food" du header*/
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: center  ;
+    background-color: white;
+    box-shadow: 0px 10px 0px 0px grey ;
+    margin-bottom: 5px;
+}
+
+header h1 img {
+   width: 162px;
+}
