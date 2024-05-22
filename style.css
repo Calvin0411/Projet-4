@@ -23,7 +23,7 @@ header h1 img {
     background-color: #EAEAEA;
     gap: 10px;
     padding: 4%;
-    box-shadow: 0px 5px 0px 0px grey ;
+    box-shadow: 0px 5px 0px 0px grey;
     margin-bottom: 2px;
 }
 .localisation i {
@@ -70,4 +70,63 @@ header h1 img {
 
 /*Fonctionnement*/
 
+.fonctionnement {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
 
+.fonctionnement h2{
+    font-weight: 700;
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.fonctionnement article {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 75%;
+    padding: 10px;
+    margin-left:10px;
+    margin-bottom: 20px;
+    border-radius: 33px;
+    background-color: #F6F6F6;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    box-shadow: 1px 1px 1px 1px#dfdada;
+}
+
+.fonctionnement i {
+    margin-top: 15px;
+}
+
+/*Ceci est la partie restaurants*/
+
+.restaurants {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    gap: 15px;
+    background-color: #F6F6F6;
+}
+
+.restaurants h2{
+    font-weight: 700;
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.restaurants article {
+    background-color: white;
+    width: 340px;
+    height: 251px;
+    padding: 5px;
+    width: 100%;
+}
+
+.restaurants img {
+    width: 346px;
+    height: 231px;
+}
