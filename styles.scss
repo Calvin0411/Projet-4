@@ -1,0 +1,155 @@
+/*Ceci est le stye de l'image "oh my food" du header*/
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    box-shadow: 0px 10px 0px 0px grey ;
+    margin-bottom: 5px;
+        header h1 img {
+         width: 162px;
+}
+}
+
+/*Ceci est la section localisation du main*/
+
+.localisation {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: #EAEAEA;
+    gap: 10px;
+    padding: 4%;
+    box-shadow: 0px 5px 0px 0px grey;
+    margin-bottom: 2px;
+    i {
+        margin-left: 55px;
+    }
+    input {
+        border: 0px;
+        background-color: #EAEAEA;
+    }
+}
+
+/*Ceci est le début de mon main*/
+
+.présentation {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #F6F6F6;
+    padding-bottom: 50px;
+    h2{
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;    
+    }
+    p {
+        text-align: center;
+        font-family:Arial, Helvetica, sans-serif;
+        color: #353535;
+    
+    }
+    button {
+        font-weight: 500px;
+        font-size: 16px;
+        padding: 15px;
+        border: none;
+        width: 218px;
+        background: linear-gradient(193.33deg, #9356DC -11.44%, #FF79DA 123.93%);
+        border-radius: 33px;
+        color: white;
+    }
+
+}
+
+/*Fonctionnement*/
+
+.fonctionnement {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    h2{
+        font-weight: 700;
+        font-size: 24px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    article {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        width: 75%;
+        padding: 10px;
+        margin-left:10px;
+        margin-bottom: 20px;
+        border-radius: 33px;
+        background-color: #F6F6F6;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 500;
+        box-shadow: 1px 1px 1px 1px#dfdada;
+    }
+    i {
+        margin-top: 15px;
+    }
+
+    
+}
+
+/*Ceci est la partie restaurants*/
+
+.restaurants {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    gap: 15px;
+    background-color: #F6F6F6;
+    h2{
+        font-weight: 700;
+        font-size: 24px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    img {
+        width: 100%;
+        height: 50%;
+        object-fit: cover;
+        border-top-left-radius: 15px;
+        border-top-right-radius: 15px;
+    }
+}
+
+
+.plats {
+    background-color: white;
+    height: 340px;
+    height: 251px;
+    border-radius: 15px;
+    padding: 5px;
+    margin-bottom: 30px;
+
+}
+
+/*Footer*/
+footer{
+    background-color: #353535;
+    color: white;
+    font-weight: 500px;
+    size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px;
+    img {
+        width: 100px;
+        color: white;
+    }
+    div {
+        display: flex;
+        flex-direction: row;
+        gap: 15px;
+    }
+    i {
+        margin-top: 15px;
+    }
+}
