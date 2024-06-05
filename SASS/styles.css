@@ -5,7 +5,7 @@ header {
   flex-direction: column;
   align-items: center;
   background-color: white;
-  box-shadow: 0px 10px 0px 0px grey;
+  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.1490196078);
   margin-bottom: 5px;
 }
 header header h1 img {
@@ -21,7 +21,7 @@ header header h1 img {
   background-color: #EAEAEA;
   gap: 10px;
   padding: 4%;
-  box-shadow: 0px 5px 0px 0px grey;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.2509803922);
   margin-bottom: 2px;
 }
 .localisation i {
@@ -89,6 +89,9 @@ header header h1 img {
 .fonctionnement i {
   margin-top: 15px;
 }
+.fonctionnement p {
+  margin-left: -100px;
+}
 
 /*Ceci est la partie restaurants*/
 .restaurants {
@@ -113,14 +116,33 @@ header header h1 img {
   border-top-left-radius: 15px;
   border-top-right-radius: 15px;
 }
-
-.plats {
+.restaurants .plats {
   background-color: white;
   height: 340px;
   height: 251px;
   border-radius: 15px;
   padding: 5px;
   margin-bottom: 30px;
+  display: grid;
+  grid-template-columns: 8fr 1fr;
+  grid-template-rows: 10fr repeat(2, 2fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+}
+.restaurants .plats img {
+  grid-area: 1/1/2/3;
+}
+.restaurants .plats h3 {
+  grid-area: 2/1/3/2;
+}
+.restaurants .plats p {
+  grid-area: 3/1/4/2;
+}
+.restaurants .plats i {
+  grid-area: 1/2/2/3;
+}
+.restaurants .plats span {
+  grid-area: 2/2/3/3;
 }
 
 /*Footer*/
