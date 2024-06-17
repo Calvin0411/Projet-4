@@ -1,0 +1,62 @@
+.restaurants {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    gap: 15px;
+    background-color: #F6F6F6;
+    a {
+        display: block;
+    }
+    h2{
+        font-weight: 700;
+        font-size: 24px;
+    }
+
+
+    
+    .plats {
+        background-color: white;
+        height: 100%;
+        border-radius: 15px;
+        padding: 5px;
+        margin-bottom: 30px;
+    
+        display: grid;
+        grid-template-columns: 75% 25%;
+        grid-template-rows: 75% 25%;
+        grid-column-gap: 0px;
+        grid-row-gap: 0px;
+        .restoName { grid-area: 2 / 1 / 3 / 2; }
+        .hearth { grid-area: 2 / 2 / 3 / 3; }
+        img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border-top-left-radius: 15px;
+        border-top-right-radius: 15px;
+        grid-area: 1 / 1 / 2 / 3;
+    }
+
+
+    span {
+        background-color: #99e2d0;
+        color: #1b6150;
+        padding: .5rem;
+        border-radius: .125rem;
+        right: .75rem;
+        grid-area: 1 / 2 / 2 / 3;
+    }
+    }    
+    
+}    
+
+.contenaire {
+    max-width: 1280px;
+    margin: 20px;
+
+        div {
+            display: block;
+        }
+}
