@@ -3,4 +3,7 @@
 }
 
 /*Ceci est l'import pour mon header*/
-@import './layout/header.scss';
+@import './layout/header.scss'; 
+
+/*Ceci est l'import de la section localisation du main*/
+@import './components/localisation';
