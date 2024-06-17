@@ -170,5 +170,9 @@ button.pinkButton:hover {
 }
 
 .footer {
-  background-color: gray;
+  background-color: #353535;
+  color: white;
+}
+.footer i {
+  color: white;
 }/*# sourceMappingURL=styles.css.map */
