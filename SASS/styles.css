@@ -86,15 +86,16 @@ button.pinkButton:hover {
   flex-direction: column;
   align-items: flex-start;
   margin-left: 20px;
+  flex-wrap: nowrap;
 }
 .fonctionnement h2 {
   font-weight: 700;
   font-size: 24px;
 }
-.fonctionnement article {
+.fonctionnement .fonction-article {
   display: flex;
   flex-direction: row;
-  width: 75%;
+  width: 100%;
   margin-left: 20px;
   margin-bottom: 20px;
   border-radius: 20px;
@@ -130,19 +131,27 @@ button.pinkButton:hover {
   flex-direction: column;
   justify-content: space-between;
   width: 100%;
+  border-radius: 15px;
   gap: 15px;
   background-color: #F6F6F6;
+  position: relative;
 }
 .restaurants a {
   display: block;
+  height: 251px;
 }
 .restaurants h2 {
   font-weight: 700;
   font-size: 24px;
 }
+.restaurants .cartes {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+}
 .restaurants .plats {
   background-color: white;
-  height: 100%;
+  height: 90%;
   border-radius: 15px;
   padding: 5px;
   margin-bottom: 30px;
@@ -184,12 +193,14 @@ button.pinkButton:hover {
   display: block;
 }
 
+/*Ceci est l'import pour mon footer*/
 .footer {
   background-color: #353535;
   color: white;
   padding-left: 20px;
   padding-top: 20px;
   padding-bottom: 20px;
+  position: relative;
 }
 .footer .container {
   padding-left: 10px;
