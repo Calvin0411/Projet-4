@@ -3,8 +3,26 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-color: #F6F6F6;
+    background-color: #f6f6f6;
     padding-bottom: 50px;
+
+    .presentation-content {
+        text-align: center; /* Centre le contenu */
+        max-width: 600px; /* Exemple de largeur maximale */
+        margin: 0 auto; /* Centre la section horizontalement */
+
+        h2 {
+            color: #333;
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+
+        p {
+            color: #666;
+            font-size: 16px;
+            line-height: 1.5;
+        }
+    }
 
     .buttonhightlight :hover {
         background-color:  linear-gradient(200.64deg, #9356DC -5.2%, #FF79DA 110.74%);

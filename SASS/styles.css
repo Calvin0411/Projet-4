@@ -44,8 +44,23 @@ header h1 img {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-color: #F6F6F6;
+  background-color: #f6f6f6;
   padding-bottom: 50px;
+}
+.presentation .presentation-content {
+  text-align: center; /* Centre le contenu */
+  max-width: 600px; /* Exemple de largeur maximale */
+  margin: 0 auto; /* Centre la section horizontalement */
+}
+.presentation .presentation-content h2 {
+  color: #333;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+.presentation .presentation-content p {
+  color: #666;
+  font-size: 16px;
+  line-height: 1.5;
 }
 .presentation .buttonhightlight :hover {
   background-color: linear-gradient(200.64deg, #9356DC -5.2%, #FF79DA 110.74%);
@@ -63,7 +78,7 @@ button.pinkButton {
   box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.2509803922);
 }
 button.pinkButton:hover {
-  background: black;
+  background: rgb(207, 41, 41);
 }
 
 .fonctionnement {
