@@ -172,6 +172,27 @@ button.pinkButton:hover {
 .footer {
   background-color: #353535;
   color: white;
+  padding-left: 20px;
+}
+.footer .container {
+  padding-left: 10px;
+}
+.footer .footerlist {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.footer .footerlien {
+  color: white;
+  text-decoration: none;
+  display: block;
+  padding: 10px 0;
+}
+.footer .footerlien .footericone {
+  margin-right: 10px;
+}
+.footer .footerlien:hover {
+  text-decoration: none;
 }
 .footer i {
   color: white;
