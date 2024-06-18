@@ -2,4 +2,15 @@ main {
     img {
         width: 100%;
     }
+
+    .titremenu {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        flex-wrap: nowrap;
+        background-color:  #F6F6F6;
+    }
+    .listemenu {
+        background-color:  #F6F6F6;
+    }
 }

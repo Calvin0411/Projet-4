@@ -226,4 +226,14 @@ button.pinkButton:hover {
 /*Ceci est l'import concernant mes pages de menu*/
 main img {
   width: 100%;
+}
+main .titremenu {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  flex-wrap: nowrap;
+  background-color: #F6F6F6;
+}
+main .listemenu {
+  background-color: #F6F6F6;
 }/*# sourceMappingURL=styles.css.map */
