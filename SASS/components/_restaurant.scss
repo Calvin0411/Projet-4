@@ -5,6 +5,44 @@
       padding: 20px;
     }
   
-    
+    .cartes {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+  
+    .plats {
+      position: relative;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      background-color: #fff;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      transition: transform 0.3s ease;
+      overflow: hidden;
+  
+      
+  
+      img {
+        width: 100%;
+        height: 200px; 
+        object-fit: cover; 
+        border-top-left-radius: 8px;
+        border-top-right-radius: 8px;
+      }
+  
+      span {
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        background-color:#99E2D0;
+        color: #008766;
+        padding: 10px 15px;
+        border-radius: 2px;
+        font-size: 15px;
+        font-weight: 500;
+      }
+  
+      
+    }
   }
   
