@@ -223,4 +223,7 @@ button.pinkButton:hover {
   color: white;
 }
 
-/*Ceci est l'import concernant mes pages de menu*//*# sourceMappingURL=styles.css.map */
+/*Ceci est l'import concernant mes pages de menu*/
+main img {
+  width: 100%;
+}/*# sourceMappingURL=styles.css.map */
