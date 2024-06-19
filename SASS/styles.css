@@ -234,6 +234,7 @@ button.pinkButton:hover {
 /*Ceci est l'import concernant mes pages de menu*/
 main {
   position: relative;
+  background-color: #F6F6F6;
 }
 main img {
   width: 100%;
