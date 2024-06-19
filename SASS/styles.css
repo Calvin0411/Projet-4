@@ -264,7 +264,7 @@ main img {
 
 .listemenu {
   background-color: #F6F6F6;
-  padding: 20px;
+  padding: 15px;
   margin: 20px 0;
 }
 
@@ -274,6 +274,7 @@ main img {
   color: black;
   position: relative;
   margin: 20px 0;
+  margin-top: 40px;
 }
 .titreplats::after {
   content: "";
