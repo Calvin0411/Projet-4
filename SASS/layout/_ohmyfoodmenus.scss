@@ -77,12 +77,15 @@ main {
 
 .contenuarticle {
     flex-grow: 1;
+    align-items: center;
+    
 }
 
 .cartemenu h3 {
     font-size: 18px;
     color: #333;
     margin-bottom: 5px;
+    margin-top: -8px;
 }
 
 .cartemenu p {
