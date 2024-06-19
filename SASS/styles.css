@@ -232,19 +232,32 @@ button.pinkButton:hover {
 }
 
 /*Ceci est l'import concernant mes pages de menu*/
+main {
+  position: relative;
+}
 main img {
   width: 100%;
+  display: block;
 }
-main .titremenu {
+
+.titremenu {
   display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: space-between;
   background-color: #F6F6F6;
+  padding: 10px;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
 }
-main .titremenu h2 {
+.titremenu h2 {
   font-family: shrikhand, sans-serif;
+  width: 341px;
+  height: 27px;
+  margin: 0;
 }
-main .listemenu {
-  background-color: #F6F6F6;
+.titremenu i {
+  font-size: 24px;
+  color: #333;
+  padding: 20px;
+  margin-top: 0;
 }/*# sourceMappingURL=styles.css.map */
