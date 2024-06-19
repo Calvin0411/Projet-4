@@ -260,4 +260,28 @@ main img {
   color: #333;
   padding: 20px;
   margin-top: 0;
+}
+
+.listemenu {
+  background-color: #F6F6F6;
+  padding: 20px;
+  margin: 20px 0;
+}
+
+.titreplats {
+  font-size: 16px;
+  font-weight: 300;
+  color: #333;
+  position: relative;
+  margin: 20px 0;
+}
+.titreplats::after {
+  content: "";
+  display: block;
+  width: 40px;
+  height: 3px;
+  background-color: #99E2D0;
+  position: absolute;
+  bottom: -10px;
+  left: 0;
 }/*# sourceMappingURL=styles.css.map */
