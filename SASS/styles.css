@@ -201,6 +201,8 @@ button.pinkButton:hover {
 }
 .footer .footerlogo {
   margin-bottom: 10px;
+  font-family: shrikhand, sans-serif;
+  font-size: 25px;
 }
 .footer .footerlist {
   list-style: none;
@@ -233,6 +235,9 @@ main .titremenu {
   align-items: flex-start;
   flex-wrap: nowrap;
   background-color: #F6F6F6;
+}
+main .titremenu h2 {
+  font-family: shrikhand, sans-serif;
 }
 main .listemenu {
   background-color: #F6F6F6;
