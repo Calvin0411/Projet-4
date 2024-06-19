@@ -400,10 +400,10 @@ button {
   }
   footer .container {
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-end;
     align-items: center;
     max-width: 1200px;
-    margin: 0 auto;
+    margin: auto;
   }
   footer .container .footerlogo {
     font-size: 24px;
@@ -412,7 +412,7 @@ button {
   footer .container .footerlist {
     display: flex;
     list-style: none;
-    padding: 0;
+    padding: 10px;
   }
   footer .container .footerinterieur {
     margin-right: 10px;

@@ -66,10 +66,10 @@
       
         .container {
           display: flex;
-          justify-content: space-between;
+          justify-content: flex-end;
           align-items: center;
           max-width: 1200px;
-          margin: 0 auto;
+          margin: auto;
       
           .footerlogo {
             font-size: 24px;
@@ -79,7 +79,7 @@
           .footerlist {
             display: flex;
             list-style: none;
-            padding: 0;
+            padding: 10px;
           }
 
           .footerinterieur {
