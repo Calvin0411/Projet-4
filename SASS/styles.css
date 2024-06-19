@@ -52,9 +52,9 @@ header h1 img {
   padding-bottom: 50px;
 }
 .presentation .presentation-content {
-  text-align: center; /* Centre le contenu */
-  max-width: 600px; /* Exemple de largeur maximale */
-  margin: 0 auto; /* Centre la section horizontalement */
+  text-align: center;
+  max-width: 600px;
+  margin: 0 auto;
 }
 .presentation .presentation-content h2 {
   color: #333;
@@ -234,7 +234,7 @@ button.pinkButton:hover {
 /*Ceci est l'import concernant mes pages de menu*/
 main {
   position: relative;
-  background-color: #F6F6F6;
+  background-color: white;
 }
 main img {
   width: 100%;
@@ -343,4 +343,6 @@ button {
   display: flex;
   flex-wrap: nowrap;
   justify-content: center;
-}/*# sourceMappingURL=styles.css.map */
+}
+
+/*Ceci est l'import concernant mon responsive*//*# sourceMappingURL=styles.css.map */
