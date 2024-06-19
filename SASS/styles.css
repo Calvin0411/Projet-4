@@ -90,7 +90,7 @@ button.pinkButton:hover {
   flex-direction: column;
   align-items: flex-start;
   margin-left: 20px;
-  flex-wrap: nowrap;
+  flex-wrap: wrap;
 }
 .fonctionnement h2 {
   font-weight: 700;
@@ -345,4 +345,48 @@ button {
   justify-content: center;
 }
 
-/*Ceci est l'import concernant mon responsive*//*# sourceMappingURL=styles.css.map */
+/*Ceci est l'import concernant mon responsive*/
+@media (min-width: 768px) {
+  .fonctionnement .align {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+  .fonctionnement .fonction-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  footer {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+  }
+  footer .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  footer .container .footerlogo {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  footer .container .footerlist {
+    display: flex;
+    list-style: none;
+    padding: 0;
+  }
+  footer .container .footerlien {
+    color: white;
+    text-decoration: none;
+    margin-right: 20px;
+    transition: color 0.3s ease;
+  }
+  footer .container .footerlien:hover {
+    color: #99E2D0;
+  }
+}/*# sourceMappingURL=styles.css.map */
