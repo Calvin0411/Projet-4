@@ -44,7 +44,7 @@ main {
 .titreplats{
     font-size: 16px ;
     font-weight: 300;
-    color: #333;
+    color: black;
     position: relative;
     margin: 20px 0;
     &::after {
@@ -70,7 +70,7 @@ main {
     padding: 15px;
     margin-bottom: 15px;
     border-radius: 10px;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Ombre légère */
+    box-shadow: 0px 4.01px 15.04px 0px #0000001A;
     display: flex;
     justify-content: space-between;
 }
@@ -78,25 +78,26 @@ main {
 .contenuarticle {
     flex-grow: 1;
     align-items: center;
-    
+    margin-bottom: -15px;
 }
 
 .cartemenu h3 {
     font-size: 18px;
-    color: #333;
+    color: black;
     margin-bottom: 5px;
-    margin-top: -8px;
+    margin-top: -5px;
 }
 
 .cartemenu p {
     font-size: 14px;
-    color: #666;
-    margin-bottom: 5px;
+    color: black;
+    margin-top: auto;
+    margin-bottom: 8px;
 }
 
 .prix {
     font-size: 18px;
-    color: #333;
+    color:  #353535;
     font-weight: bold;
     margin-top: auto; 
 }
