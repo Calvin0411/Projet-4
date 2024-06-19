@@ -267,6 +267,7 @@ main img {
   background-color: #F6F6F6;
   padding: 15px;
   margin: 20px 0;
+  margin-top: -30 px;
 }
 
 .titreplats {
@@ -328,4 +329,11 @@ main img {
   color: #353535;
   font-weight: bold;
   margin-top: auto;
+}
+
+button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
 }/*# sourceMappingURL=styles.css.map */
