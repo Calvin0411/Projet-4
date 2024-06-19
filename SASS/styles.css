@@ -239,6 +239,7 @@ main {
 main img {
   width: 100%;
   display: block;
+  margin-bottom: 0;
 }
 
 .titremenu {
@@ -247,6 +248,7 @@ main img {
   justify-content: space-between;
   background-color: #F6F6F6;
   padding: 10px;
+  margin-top: -50px;
   border-top-left-radius: 30px;
   border-top-right-radius: 30px;
 }
@@ -267,7 +269,7 @@ main img {
   background-color: #F6F6F6;
   padding: 15px;
   margin: 20px 0;
-  margin-top: -30 px;
+  margin-top: 20px;
 }
 
 .titreplats {
@@ -275,8 +277,8 @@ main img {
   font-weight: 300;
   color: black;
   position: relative;
-  margin: 20px 0;
-  margin-top: 40px;
+  margin: 20px;
+  margin-top: 10px;
 }
 .titreplats::after {
   content: "";
