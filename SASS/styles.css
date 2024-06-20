@@ -145,9 +145,8 @@ button.pinkButton:hover {
 }
 .restaurants .plats {
   position: relative;
-  border: 1px solid #ddd;
   border-radius: 15px;
-  background-color: #fff;
+  background-color: white;
   box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.1019607843);
 }
 .restaurants .plats img {
@@ -177,12 +176,12 @@ button.pinkButton:hover {
 .restaurants .plats .restoName h3 {
   margin: 0;
   font-size: 18px;
-  color: #333;
+  color: black;
 }
 .restaurants .plats .restoName p {
   margin: 5px 0 0 0;
   font-size: 14px;
-  color: #666;
+  color: black;
 }
 .restaurants .plats .hearth {
   position: absolute;
