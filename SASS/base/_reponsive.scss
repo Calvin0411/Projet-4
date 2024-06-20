@@ -1,18 +1,27 @@
 @media (min-width: 768px) {
     .fonctionnement{
-        .align {
-            display: flex;
-            flex-direction: row;
-            align-items: center;
-            justify-content: center;
-        }
 
-        .fonction-content {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: center;
-            gap: 20px;
-        }
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    margin-left: 20px;
+    flex-wrap: wrap;
+    margin-left: 250px;
+    margin-right: 250px;
+
+      .align {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+      }
+
+      .fonction-content {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+         gap: 20px;
+      }
 
     }
     
@@ -21,14 +30,14 @@
         padding-right: 300px;
         margin: 20px 0;
       
-        .container {
-          margin: 0 auto;
-          padding: 20px;
+        .contenaire {
+          margin: 5px;
+          padding: 5px;
         }
         h2 {
             display: flex;
             flex-direction: row;
-            margin-left: -250px;
+            
         }
       
         .cartes {
