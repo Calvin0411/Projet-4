@@ -210,7 +210,6 @@ button.pinkButton .lebouton {
   padding-top: 20px;
   padding-bottom: 20px;
   position: relative;
-  margin-top: 50px;
 }
 .footer .container {
   padding-left: 10px;
@@ -454,6 +453,7 @@ button {
     padding-right: 250px;
     border-top-right-radius: 40px;
     border-top-left-radius: 40px;
+    padding-bottom: 50px;
   }
   .titremenu {
     display: flex;
