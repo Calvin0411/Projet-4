@@ -340,7 +340,6 @@ main img {
 
 .cartemenu:nth-child(even) {
   animation: slideIn 0.5s ease forwards;
-  animation-delay: 0.2s;
 }
 
 .contenuarticle {
@@ -381,6 +380,49 @@ button {
   display: flex;
   flex-wrap: nowrap;
   justify-content: center;
+}
+
+.cartemenu {
+  overflow: hidden;
+  transition: box-shadow 0.3s ease;
+}
+
+.cartemenu::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: -20%;
+  width: 20%;
+  height: 100%;
+  background-color: #99E2D0;
+  transition: right 0.3s ease, width 0.3s ease;
+}
+
+.cartemenu:hover::before {
+  right: 0;
+  width: 15%;
+}
+
+.contenuarticle {
+  flex-grow: 1;
+  align-items: center;
+  margin-bottom: -15px;
+}
+
+.cartemenu p {
+  transition: transform 0.3s ease;
+}
+
+.cartemenu:hover p {
+  transform: translateX(-10px);
+}
+
+.prix {
+  transition: transform 0.3s ease;
+}
+
+.cartemenu:hover .prix {
+  transform: translateX(-120px);
 }
 
 /*Ceci est l'import concernant mon responsive*/
