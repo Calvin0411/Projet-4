@@ -1,15 +1,25 @@
 header {
     display: flex;
-    flex-direction: column;
+    justify-content: center;
+    flex-direction: row;
     align-items: center;
     background-color: white;
     box-shadow: 0px 2px 4px #636363cc;
     margin-bottom: 5px;
     height: 63px;
+    position: relative;
         h1 {
             margin: 18px 0 0 0;
             img {
                 width: 162px;
             }
         } 
+
+        i {
+            position: absolute;
+            left: 20px;
+            top: 40%;
+
+        }
+        
   }

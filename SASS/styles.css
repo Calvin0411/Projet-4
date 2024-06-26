@@ -9,18 +9,25 @@ body {
 /*Ceci est l'import pour mon header*/
 header {
   display: flex;
-  flex-direction: column;
+  justify-content: center;
+  flex-direction: row;
   align-items: center;
   background-color: white;
   box-shadow: 0px 2px 4px rgba(99, 99, 99, 0.8);
   margin-bottom: 5px;
   height: 63px;
+  position: relative;
 }
 header h1 {
   margin: 18px 0 0 0;
 }
 header h1 img {
   width: 162px;
+}
+header i {
+  position: absolute;
+  left: 20px;
+  top: 40%;
 }
 
 /*Ceci est l'import de la section localisation du main*/
@@ -366,9 +373,8 @@ button {
     gap: 20px;
   }
   .restaurants {
-    padding-left: 300px;
-    padding-right: 300px;
-    margin: 20px 0;
+    margin-left: 250px;
+    margin-right: 250px;
   }
   .restaurants .contenaire {
     margin: 5px;
