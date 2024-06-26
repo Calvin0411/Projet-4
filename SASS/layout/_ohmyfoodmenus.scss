@@ -6,6 +6,8 @@ main {
     width: 100%;
     display: block; 
     margin-bottom: 0;
+    max-height: 32rem;
+    object-fit: cover;
   }
 }
     
@@ -41,8 +43,11 @@ main {
 .listemenu {
     background-color: #F6F6F6;
     padding: 15px;
-    margin: 20px 0;
-    margin-top: 20px;
+    margin-top: -4rem;
+    border-radius: 0px;
+    z-index: 1;
+    position: relative;
+
 }
 
 .titreplats{
