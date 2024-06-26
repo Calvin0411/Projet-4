@@ -422,7 +422,7 @@ button {
 }
 
 .cartemenu:hover .prix {
-  transform: translateX(-120px);
+  transform: translateX(-10px);
 }
 
 /*Ceci est l'import concernant mon responsive*/
@@ -561,7 +561,7 @@ button {
   transform: translate(-50%, -50%);
   z-index: 9999;
   opacity: 1;
-  animation: spinner-zp9dbg 5s infinite linear;
+  animation: spinner-zp9dbg 5s linear forwards;
 }
 
 @keyframes spinner-zp9dbg {
@@ -570,7 +570,8 @@ button {
     opacity: 0;
   }
 }
+/* Animation du loader */
 .loader.fade-out {
-  animation: infinite;
+  animation: none;
   opacity: 0;
 }/*# sourceMappingURL=styles.css.map */
