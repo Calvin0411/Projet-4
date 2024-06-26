@@ -138,6 +138,9 @@ button.pinkButton:hover {
   margin: 0 auto;
   padding: 20px;
 }
+.restaurants a {
+  text-decoration: none;
+}
 .restaurants .cartes {
   gap: 20px;
 }
