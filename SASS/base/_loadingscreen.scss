@@ -1,0 +1,28 @@
+.loader {
+    display: block; 
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+    background: conic-gradient(#0000 10%, #474bff);
+    -webkit-mask: radial-gradient(farthest-side, #0000 calc(100% - 9px), #000 0);
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 9999; 
+    opacity: 1; 
+    animation: spinner-zp9dbg 5s linear forwards; 
+}
+
+@keyframes spinner-zp9dbg {
+    to {
+        transform: rotate(1turn);
+        opacity: 0; 
+    }
+}
+
+/* Animation du loader */
+.loader.fade-out {
+    animation: none; 
+    opacity: 0; 
+}

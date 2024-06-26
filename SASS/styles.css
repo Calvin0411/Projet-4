@@ -260,6 +260,7 @@ main img {
   margin-top: -50px;
   border-top-left-radius: 40px;
   border-top-right-radius: 40px;
+  overflow: hidden;
 }
 .titremenu h2 {
   font-family: shrikhand, sans-serif;
@@ -477,4 +478,31 @@ button {
     margin-top: 0;
   }
 }
-/*Ceci est l'import concernant mes animations*//*# sourceMappingURL=styles.css.map */
+/*Ceci est l'import concernant mes animations*/
+.loader {
+  display: block;
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  background: conic-gradient(rgba(0, 0, 0, 0) 10%, #474bff);
+  -webkit-mask: radial-gradient(farthest-side, rgba(0, 0, 0, 0) calc(100% - 9px), #000 0);
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 9999;
+  opacity: 1;
+  animation: spinner-zp9dbg 5s linear forwards;
+}
+
+@keyframes spinner-zp9dbg {
+  to {
+    transform: rotate(1turn);
+    opacity: 0;
+  }
+}
+/* Animation du loader */
+.loader.fade-out {
+  animation: none;
+  opacity: 0;
+}/*# sourceMappingURL=styles.css.map */
