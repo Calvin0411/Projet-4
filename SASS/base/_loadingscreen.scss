@@ -11,7 +11,7 @@
     transform: translate(-50%, -50%);
     z-index: 9999; 
     opacity: 1; 
-    animation: spinner-zp9dbg 5s linear forwards; 
+    animation: spinner-zp9dbg 5s infinite linear;
 }
 
 @keyframes spinner-zp9dbg {
@@ -21,8 +21,8 @@
     }
 }
 
-/* Animation du loader */
+
 .loader.fade-out {
-    animation: none; 
+    animation: infinite;
     opacity: 0; 
 }
