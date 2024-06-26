@@ -142,6 +142,7 @@ button.pinkButton .lebouton {
 
 .restaurants {
   margin-left: 20px;
+  padding-bottom: 50px;
 }
 .restaurants .container {
   max-width: 1200px;
@@ -475,4 +476,22 @@ button {
     padding: 20px;
     margin-top: 0;
   }
+}
+/*Ceci est l'import concernant mes animations*/
+.plats .hearth {
+  position: absolute;
+  bottom: 15px;
+  right: 15px;
+  font-size: 24px;
+  color: linear-gradient(193.33deg, #9356DC -11.44%, #FF79DA 123.93%);
+}
+.plats .hearth .fa-solid {
+  display: none;
+}
+.plats .hearth:hover .fa-regular {
+  display: none;
+}
+.plats .hearth:hover .fa-solid {
+  display: inline;
+  color: linear-gradient(193.33deg, #9356DC -11.44%, #FF79DA 123.93%);
 }/*# sourceMappingURL=styles.css.map */

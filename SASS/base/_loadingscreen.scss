@@ -1,0 +1,23 @@
+.plats {
+  
+    .hearth {
+      position: absolute;
+      bottom: 15px;
+      right: 15px;
+      font-size: 24px;
+      color: linear-gradient(193.33deg, #9356DC -11.44%, #FF79DA 123.93%);
+      
+      .fa-solid {
+        display: none;
+      }
+  
+      &:hover .fa-regular {
+        display: none;
+      }
+  
+      &:hover .fa-solid {
+        display: inline;
+        color: linear-gradient(193.33deg, #9356DC -11.44%, #FF79DA 123.93%);
+    }
+    }
+  }
