@@ -6,7 +6,7 @@ main {
     width: 100%;
     display: block; 
     margin-bottom: 0;
-    max-height: 32rem;
+    max-height: 360px;
     object-fit: cover;
   }
 }
@@ -20,8 +20,8 @@ main {
     background-color: #F6F6F6;
     padding: 10px;  
     margin-top: -50px;
-    border-top-left-radius: 30px;
-    border-top-right-radius: 30px;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
         
 
     h2 {
@@ -42,9 +42,8 @@ main {
 
 .listemenu {
     background-color: #F6F6F6;
-    padding: 15px;
     margin-top: -4rem;
-    border-radius: 0px;
+    padding: 1px;
     z-index: 1;
     position: relative;
 
