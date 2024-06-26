@@ -138,8 +138,7 @@ button.pinkButton:hover {
 }
 
 .restaurants {
-  padding: 20px;
-  margin: 20px 0;
+  margin-left: 20px;
 }
 .restaurants .container {
   max-width: 1200px;
@@ -355,7 +354,6 @@ button {
     display: flex;
     flex-direction: column;
     align-items: stretch;
-    margin-left: 20px;
     flex-wrap: wrap;
     margin-left: 250px;
     margin-right: 250px;
@@ -375,10 +373,6 @@ button {
   .restaurants {
     margin-left: 250px;
     margin-right: 250px;
-  }
-  .restaurants .contenaire {
-    margin: 5px;
-    padding: 5px;
   }
   .restaurants h2 {
     display: flex;
