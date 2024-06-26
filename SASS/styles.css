@@ -394,7 +394,7 @@ button {
   }
   .restaurants .plats img {
     width: 490px;
-    height: 251px;
+    height: 200px;
     -o-object-fit: cover;
        object-fit: cover;
     border-top-left-radius: 15px;
@@ -409,13 +409,15 @@ button {
   footer .container {
     display: flex;
     justify-content: flex-end;
+    flex-direction: row-reverse;
     align-items: center;
     max-width: 1200px;
-    margin: auto;
+    margin-left: 50%;
   }
   footer .container .footerlogo {
     font-size: 24px;
     font-weight: bold;
+    margin-bottom: 0px;
   }
   footer .container .footerlist {
     display: flex;

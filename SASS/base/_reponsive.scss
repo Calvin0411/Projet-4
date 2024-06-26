@@ -28,9 +28,6 @@
         margin-left:250px;
         margin-right: 250px;
           
-        .contenaire {
-          
-        }
         h2 {
             display: flex;
             flex-direction: row;
@@ -54,7 +51,7 @@
       
           img {
             width: 490px;
-            height: 251px; 
+            height: 200px; 
             object-fit: cover;
             border-top-left-radius: 15px;
             border-top-right-radius: 15px;
@@ -73,13 +70,15 @@
         .container {
           display: flex;
           justify-content: flex-end;
+          flex-direction: row-reverse;
           align-items: center;
           max-width: 1200px;
-          margin: auto;
+          margin-left: 50%;
       
           .footerlogo {
             font-size: 24px;
             font-weight: bold;
+            margin-bottom: 0px;
           }
       
           .footerlist {
@@ -96,7 +95,6 @@
             color: white;
             text-decoration: none;
             margin-right: 20px;
-      
           }
         }
       }
