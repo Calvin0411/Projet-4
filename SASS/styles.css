@@ -554,7 +554,6 @@ button {
   height: 56px;
   border-radius: 50%;
   background: conic-gradient(rgba(0, 0, 0, 0) 10%, #474bff);
-  -webkit-mask: radial-gradient(farthest-side, rgba(0, 0, 0, 0) calc(100% - 9px), #000 0);
   position: fixed;
   top: 50%;
   left: 50%;
@@ -574,4 +573,30 @@ button {
 .loader.fade-out {
   animation: none;
   opacity: 0;
+}
+
+.hearth {
+  position: absolute;
+  bottom: 15px;
+  right: 15px;
+  font-size: 24px;
+  color: linear-gradient(193.33deg, #9356DC -11.44%, #FF79DA 123.93%);
+}
+.hearth .heart-icon {
+  transition: opacity 0.5s ease;
+}
+.hearth .far {
+  opacity: 1;
+}
+.hearth .fas {
+  opacity: 0;
+  position: absolute;
+  top: 10;
+  left: 0;
+}
+.hearth:hover .far {
+  opacity: 10;
+}
+.hearth:hover .fas {
+  opacity: 1;
 }/*# sourceMappingURL=styles.css.map */
