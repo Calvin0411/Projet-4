@@ -381,9 +381,32 @@ button {
   font-size: 14px;
   color: #353535;
   font-weight: bold;
-  margin-top: auto;
+  margin-top: 15px;
   flex-shrink: 0;
   transition: all 0.3s ease;
+}
+
+.menu-checkmark {
+  font-size: 20px;
+  color: red;
+  background-color: #99E2D0;
+  padding: 5px;
+  border-radius: 50%;
+  position: absolute;
+  right: -50px;
+  transition: all 0.3s ease;
+}
+
+.cartemenu:hover .menu-checkmark {
+  right: 10px;
+}
+
+.cartemenu:hover .menu-prix {
+  transform: translateX(-50px);
+}
+
+.cartemenu:hover .contenuarticle {
+  max-width: calc(100% - 110px);
 }
 
 /*Ceci est l'import concernant mon responsive*/
