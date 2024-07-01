@@ -144,7 +144,7 @@ button.pinkButton .lebouton {
 }
 
 .restaurants {
-  margin-left: 20px;
+  margin: 15px;
   padding-bottom: 50px;
 }
 .restaurants .container {
@@ -155,14 +155,12 @@ button.pinkButton .lebouton {
 .restaurants a {
   text-decoration: none;
 }
-.restaurants .cartes {
-  gap: 20px;
-}
 .restaurants .plats {
   position: relative;
   border-radius: 15px;
   background-color: white;
   box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.1019607843);
+  margin-bottom: 15px;
 }
 .restaurants .plats img {
   width: 100%;
@@ -597,7 +595,6 @@ button {
   bottom: 15px;
   right: 15px;
   font-size: 24px;
-  color: linear-gradient(193.33deg, #9356DC -11.44%, #FF79DA 123.93%);
 }
 .hearth .heart-icon {
   transition: opacity 0.5s ease;
@@ -610,10 +607,15 @@ button {
   position: absolute;
   top: 10;
   left: 0;
+  color: #9356DC;
 }
 .hearth:hover .far {
-  opacity: 10;
+  opacity: 0;
 }
 .hearth:hover .fas {
-  opacity: 1;
+  opacity: 10;
+}
+
+.titremenu .hearth {
+  position: absolute;
 }/*# sourceMappingURL=styles.css.map */

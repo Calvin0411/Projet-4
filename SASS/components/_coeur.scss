@@ -3,7 +3,6 @@
   bottom: 15px;
   right: 15px;
   font-size: 24px;
-  color: linear-gradient(193.33deg, #9356DC -11.44%, #FF79DA 123.93%);
 
   .heart-icon {
     transition: opacity 0.5s ease;
@@ -18,17 +17,24 @@
   position: absolute;
   top: 10;
   left: 0;
+  color:#9356DC ;
+  ;
   }
 
 &:hover .far {
-  opacity: 10;
+  opacity: 0;
 }
 
 &:hover .fas {
-    opacity: 1;
+    opacity: 10;
  }
   }
   
+.titremenu {
+  .hearth {
+    position: absolute;
+  }
+}
 
   
   
