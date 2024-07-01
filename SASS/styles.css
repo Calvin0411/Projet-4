@@ -386,21 +386,6 @@ button {
   transition: all 0.3s ease;
 }
 
-i {
-  color: #99E2D0;
-  background-color: white;
-  border: 2px solid #99E2D0;
-  border-radius: 50%;
-  padding: 5px;
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  width: 24px;
-  height: 24px;
-  box-sizing: border-box;
-  font-size: 12px;
-}
-
 .menu-checkmark {
   font-size: 20px;
   color: #99E2D0;
@@ -413,6 +398,20 @@ i {
   align-items: center;
   justify-content: center;
   transition: all 0.3s ease;
+}
+.menu-checkmark i {
+  color: #99E2D0;
+  background-color: white;
+  border: 2px solid #99E2D0;
+  border-radius: 50%;
+  padding: 5px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 24px;
+  height: 24px;
+  box-sizing: border-box;
+  font-size: 12px;
 }
 
 .cartemenu:hover .menu-checkmark {
