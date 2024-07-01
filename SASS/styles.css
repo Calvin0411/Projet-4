@@ -120,6 +120,9 @@ button.pinkButton .lebouton {
   align-items: center;
   height: 72px;
 }
+.fonctionnement .fonction-article:hover i {
+  color: #9356DC;
+}
 .fonctionnement i {
   margin-left: 20px;
   color: #7E7E7E;
@@ -424,13 +427,20 @@ button {
 
 /*Ceci est l'import concernant mon responsive*/
 @media (min-width: 768px) {
+  .top {
+    box-shadow: none;
+  }
+  .localisation {
+    box-shadow: none;
+    margin-bottom: 0px;
+  }
   .fonctionnement {
     display: flex;
     flex-direction: column;
     align-items: stretch;
     flex-wrap: wrap;
-    margin-left: 20%;
-    margin-right: 20%;
+    margin-left: 15%;
+    margin-right: 15%;
   }
   .fonctionnement .align {
     display: flex;
@@ -445,21 +455,22 @@ button {
     gap: 20px;
   }
   .restaurants {
-    margin-left: 20%;
-    margin-right: 20%;
+    margin-left: 15%;
+    margin-right: 15%;
   }
   .restaurants h2 {
     display: flex;
     flex-direction: row;
   }
   .restaurants .cartes {
+    width: 100%;
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
-    gap: 50px;
+    justify-content: space-between;
+    gap: 30px;
   }
   .restaurants a {
-    width: 40%;
+    width: 47%;
   }
   .restaurants a .plats {
     width: 100%;
@@ -471,7 +482,7 @@ button {
   }
   .restaurants a .plats img {
     width: 100%;
-    height: 200px;
+    height: 150px;
     -o-object-fit: cover;
        object-fit: cover;
     border-top-left-radius: 15px;
