@@ -251,6 +251,10 @@ main img {
      object-fit: cover;
 }
 
+header i {
+  color: black;
+}
+
 .hearth {
   display: flex;
   bottom: none;
@@ -355,6 +359,7 @@ button {
 .contenuarticle {
   display: block;
   unicode-bidi: isolate;
+  flex-wrap: wrap;
 }
 
 .cartemenu h3 {
@@ -571,7 +576,7 @@ button {
 @media (min-width: 768px) {
   main img {
     width: 100%;
-    max-height: 650px;
+    max-height: 450px;
     -o-object-fit: cover;
        object-fit: cover;
   }
@@ -663,9 +668,9 @@ button {
 .hearth .fas {
   opacity: 0;
   position: absolute;
-  top: 10;
-  left: 0;
-  color: #9356DC;
+  background: linear-gradient(to bottom, #9356DC, #FF79DA);
+  -webkit-background-clip: text;
+  color: transparent;
 }
 .hearth:hover .far {
   opacity: 0;

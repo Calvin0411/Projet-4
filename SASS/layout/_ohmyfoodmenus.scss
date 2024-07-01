@@ -11,6 +11,12 @@ main {
   }
 }
     
+header {
+    i {
+        color: black;
+    }
+}
+
 
 .hearth {
     display: flex;
@@ -126,6 +132,7 @@ button {
 .contenuarticle {
     display: block;
     unicode-bidi: isolate;
+    flex-wrap: wrap;
 }
 
 .cartemenu h3 {
