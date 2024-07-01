@@ -319,17 +319,17 @@ main img {
 
 .cartemenu {
   width: 100%;
-  max-height: 69px;
+  max-height: 72px;
   background-color: white;
   box-shadow: 0px 4.01px 15.04px 0px rgba(0, 0, 0, 0.1019607843);
   border-radius: 10px;
   overflow: hidden;
-  padding: 15px;
+  padding: 10px;
   display: flex;
   justify-content: space-between;
   align-items: center;
   position: relative;
-  margin-bottom: 15px;
+  margin-bottom: 10px;
   transition: all 0.3s ease;
 }
 
@@ -386,19 +386,37 @@ button {
   transition: all 0.3s ease;
 }
 
+i {
+  color: #99E2D0;
+  background-color: white;
+  border: 2px solid #99E2D0;
+  border-radius: 50%;
+  padding: 5px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 24px;
+  height: 24px;
+  box-sizing: border-box;
+  font-size: 12px;
+}
+
 .menu-checkmark {
   font-size: 20px;
-  color: red;
+  color: #99E2D0;
   background-color: #99E2D0;
-  padding: 5px;
-  border-radius: 50%;
+  height: 100%;
+  width: 50px;
   position: absolute;
   right: -50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   transition: all 0.3s ease;
 }
 
 .cartemenu:hover .menu-checkmark {
-  right: 10px;
+  right: 0px;
 }
 
 .cartemenu:hover .menu-prix {
