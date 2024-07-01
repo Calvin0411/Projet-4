@@ -444,6 +444,10 @@ button {
     justify-content: center;
     gap: 20px;
   }
+  .restaurants {
+    margin-left: 20%;
+    margin-right: 20%;
+  }
   .restaurants h2 {
     display: flex;
     flex-direction: row;
