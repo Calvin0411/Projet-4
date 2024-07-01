@@ -89,7 +89,6 @@ button.pinkButton {
   box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.2509803922);
 }
 button.pinkButton:hover {
-  background: linear-gradient(200.64deg, #9356DC -5.2%, #FF79DA 110.74%), linear-gradient(0deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0.15));
   opacity: 70%;
 }
 button.pinkButton .lebouton {
@@ -253,12 +252,12 @@ main img {
 }
 
 .titremenu {
+  width: 100%;
   display: flex;
   align-items: center;
   justify-content: space-between;
   background-color: #F6F6F6;
-  padding: 10px;
-  margin-top: -50px;
+  margin-top: -40px;
   border-top-left-radius: 40px;
   border-top-right-radius: 40px;
   overflow: hidden;
@@ -279,10 +278,11 @@ main img {
 .listemenu {
   background-color: #F6F6F6;
   margin-top: -4rem;
-  padding: 1px;
+  padding: 10px;
   z-index: 1;
   position: relative;
-  padding: 10px;
+  margin: 0px;
+  padding: 1px;
 }
 
 .titreplats {
@@ -291,6 +291,7 @@ main img {
   color: black;
   position: relative;
   margin-top: 30px;
+  padding-left: 2%;
 }
 .titreplats::after {
   content: "";
@@ -300,7 +301,7 @@ main img {
   background-color: #99E2D0;
   position: absolute;
   bottom: -10px;
-  left: 0;
+  left: 2%;
 }
 
 .articles {
@@ -316,6 +317,15 @@ main img {
   box-shadow: 0px 4.01px 15.04px 0px rgba(0, 0, 0, 0.1019607843);
   display: flex;
   justify-content: space-between;
+}
+
+.ecart {
+  padding-left: 2%;
+  padding-right: 2%;
+}
+
+.lebouton {
+  padding-bottom: 8%;
 }
 
 .cartemenu.in-view {
@@ -534,14 +544,20 @@ button {
     border-top-right-radius: 40px;
     border-top-left-radius: 40px;
     padding-bottom: 50px;
+    margin-top: -40px;
+  }
+  .titreplats {
+    margin-top: 15px;
   }
   .titremenu {
     display: flex;
     align-items: center;
     justify-content: center;
     background-color: #F6F6F6;
-    padding: 20px;
-    margin-top: 0px;
+    margin-top: 10px;
+    padding-bottom: 20px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
   }
   .titremenu h2 {
     font-family: shrikhand, sans-serif;

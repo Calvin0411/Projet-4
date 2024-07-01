@@ -13,13 +13,13 @@ main {
     
 
 .titremenu {
-
+    width: 100%;
     display: flex;
     align-items: center; 
     justify-content: space-between;  
     background-color: #F6F6F6;
-    padding: 10px;  
-    margin-top: -50px;
+    
+    margin-top: -40px;
     border-top-left-radius: 40px;
     border-top-right-radius: 40px;
     overflow: hidden;
@@ -44,10 +44,11 @@ main {
 .listemenu {
     background-color: #F6F6F6;
     margin-top: -4rem;
-    padding: 1px;
+    padding: 10px;
     z-index: 1;
     position: relative;
-    padding: 10px;
+    margin: 0px;
+    padding: 1px;
 
 }
 
@@ -57,6 +58,7 @@ main {
     color: black;
     position: relative;
     margin-top: 30px;
+    padding-left: 2%;
     &::after {
         content: '';
         display: block;
@@ -65,12 +67,10 @@ main {
         background-color: #99E2D0;
         position: absolute;
         bottom: -10px; 
-        left: 0;
+        left: 2%;
     }
        
 }
-
-
 
 .articles {
     display: flex;
@@ -86,6 +86,15 @@ main {
     display: flex;
     justify-content: space-between;
     
+}
+
+.ecart{
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+.lebouton{
+    padding-bottom: 8%;
 }
 
 .cartemenu.in-view {
