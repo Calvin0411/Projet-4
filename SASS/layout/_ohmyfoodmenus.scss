@@ -12,6 +12,13 @@ main {
 }
     
 
+.hearth {
+    position: absolute;
+    bottom: none;
+    right: none;
+    font-size: none;
+}
+
 .titremenu {
     width: 100%;
     display: flex;
@@ -25,19 +32,22 @@ main {
     overflow: hidden;
         
 
+
+
     h2 {
     font-family: shrikhand, sans-serif;
         width: 341px;
         height: 27px;
-        margin: 0;
-        
+        margin-left: 5%;
+        margin-top: 6%;
     }
 
     i {
         font-size: 24px; 
         color: #333; 
         padding: 20px;
-        margin-top: 0;
+        margin-top: 3%;
+
     }
 }
 
