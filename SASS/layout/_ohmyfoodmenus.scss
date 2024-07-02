@@ -24,10 +24,7 @@ header {
 
 .hearth {
     display: flex;
-    bottom: none;
-    right: none;
-    font-size: none;
-    position: absolute;
+    margin-inline-start: 50%;
 }
 
 .titremenu {
@@ -36,17 +33,16 @@ header {
     align-items: center; 
     justify-content: space-between;  
     background-color: #F6F6F6;
-    
     margin-top: -40px;
     border-top-left-radius: 40px;
     border-top-right-radius: 40px;
     overflow: hidden;
-        
+    
 
 
 
     h2 {
-    font-family: shrikhand, sans-serif;
+        font-family: shrikhand, sans-serif;
         width: 341px;
         height: 27px;
         margin-left: 5%;

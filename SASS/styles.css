@@ -258,10 +258,7 @@ header i {
 
 .hearth {
   display: flex;
-  bottom: none;
-  right: none;
-  font-size: none;
-  position: absolute;
+  margin-inline-start: 50%;
 }
 
 .titremenu {
@@ -647,7 +644,6 @@ button {
 }
 .loaderContainer {
   background-color: white;
-  opacity: 50%;
   z-index: 9999;
   position: absolute;
   width: 100%;
@@ -659,10 +655,7 @@ button {
 }
 
 .hearth {
-  position: absolute;
-  bottom: 15px;
-  right: 15px;
-  font-size: 24px;
+  display: flex;
 }
 .hearth .heart-icon {
   transition: opacity 0.5s ease;
