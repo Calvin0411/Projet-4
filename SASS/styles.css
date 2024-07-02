@@ -252,6 +252,10 @@ header i {
   color: black;
 }
 
+.ohmyfoodmenu {
+  box-shadow: none;
+}
+
 .hearth {
   display: flex;
   bottom: none;
