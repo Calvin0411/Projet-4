@@ -78,10 +78,10 @@
       
       .container {
         display: flex;
-        justify-content: flex-end;
+        justify-content: flex-start;
         flex-direction: row-reverse;
         align-items: center;
-        margin-left: 40%;
+        margin-right: 15%;
       
         .footerlogo {
           font-size: 24px;
