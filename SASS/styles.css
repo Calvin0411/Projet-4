@@ -257,7 +257,6 @@ header i {
 
 .hearth {
   display: flex;
-  margin-inline-start: 50%;
 }
 
 .titremenu {
@@ -273,8 +272,6 @@ header i {
 }
 .titremenu h2 {
   font-family: shrikhand, sans-serif;
-  width: 341px;
-  height: 27px;
   margin-left: 5%;
   margin-top: 6%;
 }
@@ -282,7 +279,6 @@ header i {
   font-size: 24px;
   color: #333;
   padding: 20px;
-  margin-top: 3%;
 }
 
 .listemenu {
@@ -674,8 +670,4 @@ button {
 }
 .hearth:hover .fas {
   opacity: 10;
-}
-
-.titremenu .hearth {
-  position: absolute;
 }/*# sourceMappingURL=styles.css.map */
