@@ -3,11 +3,16 @@
     flex-direction: column;
     align-items: flex-start;
     margin-left: 20px;
+    margin-right: 20px;
     flex-wrap: wrap;
     
     h2{
         font-weight: 700;
         font-size: 24px;
+    }
+
+    .align {
+        width: 100%;
     }
     
     .fonction-article {
